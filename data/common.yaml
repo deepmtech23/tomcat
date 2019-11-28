@@ -1,0 +1,8 @@
+---
+tomcat::deploy::tomcat_url:  'puppet:///modules/tomcat/sample.war' 
+tomcat::deploy::tomcat_path: '/var/lib/tomcat9/webapps'
+tomcat::deploy::tomcat_user: 'tomcat' 
+tomcat::deploy::tomcat_group: 'tomcat' 
+tomcat::index::environment:   'production' 
+tomcat::index::deploy_url_sample_path: '/var/lib/tomcat9/webapps' 
+tomcat::install::tomcat_package: 'tomcat*' 
